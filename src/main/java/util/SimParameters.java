@@ -3,7 +3,7 @@ package util;
 import  Map.MapStructure.Cell;
 import Map.Terrain;
 public class SimParameters {
-    private static final Cell[][] MapSize = new Cell[100][100];
+    private static final Cell[][] MapSize = new Cell[25][25];
 
     private static final Cell startingCell = new Cell(0, 0, Terrain.PLAIN);
 

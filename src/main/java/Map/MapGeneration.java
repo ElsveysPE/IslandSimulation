@@ -4,12 +4,14 @@ package Map;
 import util.ImportantMethods;
 import util.SimParameters;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 
 public class MapGeneration {
 
     static private MapStructure.Cell[][] IslandMap = SimParameters.getMapSize();
-    public MapStructure.Cell[][] getIslandMap(){
+    public static MapStructure.Cell[][] getIslandMap(){
         return IslandMap;
     }
     static int Length = SimParameters.getMapLength();
@@ -21,6 +23,15 @@ public class MapGeneration {
 
     public static int getHeight() {
         return Height;
+    }
+    public static HashSet<MapStructure.Cell> getMapInCells() {
+        HashSet<MapStructure.Cell> cells = new HashSet<>();
+        for (int i = 0; i < SimParameters.getMapLength(); i++) {
+            for (int j = 0; j < SimParameters.getMapHeight(); j++) {
+                cells.add(IslandMap[i][j]);
+            }
+        }
+        return cells;
     }
 
     public static List<MapStructure.Cell> getNeighbours(MapStructure.Cell cell){
@@ -39,6 +50,7 @@ public class MapGeneration {
 
         return neighbours;
     }
+    //will be used later
     public static List<MapStructure.Cell> getAllNeighbours(MapStructure.Cell cell, int howFarSensesCanSee) {
         List<MapStructure.Cell> allNeighbours = getNeighbours(cell);
         int x = cell.getX();
@@ -110,6 +122,7 @@ public class MapGeneration {
             currCell.setX(currLength);
             currCell.setY(currHeight);
             generateTerrain(currCell);
+            currCell.setCurrPlantCapacity(50);
             IslandMap[currLength][currHeight] = currCell;
             if(currLength==LengthRoof && currHeight==HeightRoof) {
                 reverseAlg=true;

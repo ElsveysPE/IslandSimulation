@@ -1,29 +1,18 @@
-package Organisms.Animals.Behaviours;
+package Organisms.Animals.Behaviours.BehaviourLogic.MovementLogic;
 
 import Map.MapStructure;
-import Map.Terrain;
 import Organisms.Animals.Animal;
 import Organisms.Animals.Corpses.Corpse;
-import Organisms.Plants.Plant;
 
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 
-public class CellPostAnalysis {
-        public MapStructure.Cell cell;
-        public int x;
-        public int y;
-        public Terrain terrain;
+public class CellAnalysed {
+        private MapStructure.Cell cell;
         public int currPlantCapacity;
-        public HashSet<Plant> plants;
-        public static CellPostAnalysis fromCell(MapStructure.Cell cell) {
-                CellPostAnalysis cellPA = new CellPostAnalysis();
-                cellPA.x = cell.getX();
-                cellPA.y = cell.getY();
-                cellPA.terrain = cell.getTerrain();
+        public static CellAnalysed formCellAnalysed(MapStructure.Cell cell) {
+                CellAnalysed cellPA = new CellAnalysed();
+                cellPA.cell= cell;
                 cellPA.currPlantCapacity = cell.getCurrPlantCapacity();
-                cellPA.plants = cell.getPlants();
                 cellPA.resetDynamicFields();
                 return cellPA;
         }
@@ -34,7 +23,6 @@ public class CellPostAnalysis {
         public int currAnimalCapacity;
         public int currDangerousAnimalCapacity;
         public int currWeakAnimalCapacity;
-        public int currCorpseCapacity;
         public int cellDanger;
         public int cellPotentialDanger;
         public int cellFoodAvailability;
@@ -54,4 +42,8 @@ public class CellPostAnalysis {
                 currWeakAnimalCapacity = 0;
                 currDangerousAnimalCapacity = 0;
         }
+
+        public MapStructure.Cell getCell() {
+                return cell;
         }
+}

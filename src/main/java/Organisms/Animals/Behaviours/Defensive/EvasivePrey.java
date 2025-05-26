@@ -1,12 +1,8 @@
 package Organisms.Animals.Behaviours.Defensive;
 
-import Map.MapGeneration;
-import Map.MapStructure;
 import Organisms.Animals.Animal;
 import Organisms.Animals.Behaviours.Basic;
-import Organisms.Animals.Behaviours.BattleConditions;
-
-import java.util.List;
+import Organisms.Animals.Behaviours.BattleConditions.BattleConditions;
 
 public interface EvasivePrey extends Basic {
     default void focusOnEvasion(Animal animal){
@@ -19,7 +15,6 @@ public interface EvasivePrey extends Basic {
 
     }
     default void disengage(Animal runner){
-        List<MapStructure.Cell> possibleRoutes = MapGeneration.getNeighbours(runner.getCell());
         runner.battleConditions.add(BattleConditions.DISENGAGING);
         runner.battleActionPoints--;
     }

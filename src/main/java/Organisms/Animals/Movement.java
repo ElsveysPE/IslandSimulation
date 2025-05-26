@@ -1,29 +1,39 @@
 package Organisms.Animals;
 
 import Map.MapStructure;
-import Organisms.Organism;
+import Map.Terrain;
+import Organisms.Animals.Behaviours.BehaviourLogic.MovementLogic.CellAnalysed;
+import Organisms.Animals.Behaviours.BehaviourLogic.MovementLogic.CellFavor;
+import Organisms.Animals.Behaviours.BehaviourLogic.MovementLogic.cellInitialAnalysis;
+import Organisms.Animals.Behaviours.BehaviourLogic.MovementLogic.cellFinalAnalysis;
 
+import java.util.HashSet;
 import java.util.List;
-import java.util.Objects;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import static Map.MapGeneration.getNeighbours;
-import static util.ImportantMethods.d4Straight;
-import static util.ImportantMethods.d8Straight;
 
 public class Movement {
     private static final Logger logger = Logger.getLogger(Movement.class.getName());
-    public static MapStructure.Cell whereToMoveTest(Animal animal){
-        MapStructure.Cell chosenCell;
+    public static MapStructure.Cell whereToMove(Animal animal){
+        int chosenCellFavor = Integer.MIN_VALUE;
+        MapStructure.Cell finalChoice = new MapStructure.Cell(-1, -1, Terrain.PLACEHOLDER);
         List<MapStructure.Cell> cells = getNeighbours(animal.getCell());
-        if(cells.size()==8) {
-            chosenCell= cells.get(d8Straight());
+        cells.add(animal.getCell());
+        cells.add(animal.getCell());
+        HashSet<CellFavor> cellFavors = new HashSet<>();
+        for(MapStructure.Cell i : cells){
+            CellAnalysed cellAnalysed = cellInitialAnalysis.initialAnalysis(animal, i);
+            CellFavor cellFavor = cellFinalAnalysis.finalAnalysis(animal, cellAnalysed);
+            cellFavors.add(cellFavor);
         }
-        else chosenCell= cells.get(0);
-        logger.log(Level.FINER, "Animal [{0}] successfully chose a Cell [{1},{2}]",
-                new Object[]{animal.getId(), chosenCell.getX(), chosenCell.getY()});
-        return chosenCell;
+        for(CellFavor chosenCell: cellFavors){
+            if(chosenCell.getFavor()>chosenCellFavor){
+                finalChoice = chosenCell.getCell();
+                chosenCellFavor = chosenCell.getFavor();
+            }
+        }
+        return finalChoice;
     }
     public static class MoveRequest{
         private Animal animal;
@@ -32,6 +42,9 @@ public class Movement {
         public MoveRequest(Animal animal, MapStructure.Cell cell){
             this.animal=animal;
             this.cell=cell;
+        }
+        public static MoveRequest formMoveRequest(Animal animal, MapStructure.Cell cell){
+            return new MoveRequest(animal, cell);
         }
 
         public Animal getAnimal() {

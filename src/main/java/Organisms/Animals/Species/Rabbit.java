@@ -1,39 +1,29 @@
 package Organisms.Animals.Species; // Example package
 
 import Map.MapStructure;
+import Map.Terrain;
 import Organisms.Animals.Animal;
+import Organisms.Animals.Behaviours.Defensive.HidingPrey;
+import Organisms.Animals.Behaviours.Nutrition.Herbivore;
+import Organisms.Animals.Corpses.Corpse;
+import Organisms.Animals.Tags;
 // Import other necessary classes/enums if needed by constructor signature (unlikely here)
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.logging.Level;
-// No logger needed here if Animal's logger is protected/used via superclass methods
+public class Rabbit extends Animal implements HidingPrey, Herbivore {
 
-/**
- * Represents a Rabbit in the simulation.
- * Inherits most behavior and all stats from the Animal class.
- * This minimal version relies on the Spawner to set initial stats via the constructor.
- */
-public class Rabbit extends Animal {
+    private static final int RABBIT_MAX_AGE = 300;
+    private static final int RABBIT_INITIAL_CURR_AGE = 60;
 
-    /**
-     * Constructor for Rabbit. Simply passes all initial stat values
-     * provided by the Spawner up to the Animal superclass constructor.
-     *
-     * NOTE: The parameter list MUST EXACTLY match the parameters required
-     * by the protected Animal constructor.
-     */
     public Rabbit(MapStructure.Cell initialCell,
-                  // Core Survival Stats
-                  int initialMaxHealth,
-                  int initialMaxAge,
                   int initialSize,
-                  // Physical Base Stats
                   int initialAgility,
                   int initialConstitution,
                   int initialStrength,
                   int initialSpeed,
-                  // Perception/Stealth Base Stats
                   int initialPerception,
                   int initialStealth,
-                  // Combat Base Stats
                   int initialMinDamage,
                   float initialPhysRes,
                   int initialAttackAdv,
@@ -42,27 +32,109 @@ public class Rabbit extends Animal {
                   int initialEvasionAdv,
                   int initialBattleActionPoints,
                   int initialReactionPoints,
-                  // Resource Stats
-                  float initialEnergy,
-                  int initialFat
-            /* Add other stats if they were added to Animal constructor */) {
+                  float initialStoredEnergy,
+                  int initialFatStorage) {
 
-        // Call the superclass (Animal) constructor with all received parameters
         super(initialCell,
-                initialMaxHealth, initialMaxAge, initialSize,
-                initialAgility, initialConstitution, initialStrength, initialSpeed,
-                initialPerception, initialStealth,
-                initialMinDamage, initialPhysRes, initialAttackAdv, initialStealthAdv,
-                initialPerceptionAdv, initialEvasionAdv, initialBattleActionPoints,
-                initialReactionPoints, initialEnergy, initialFat
-                /* Pass other stats if added to Animal constructor */);
+                new HashSet<>(Arrays.asList(
+                        Tags.HERBY, Tags.STEALTH, Tags.DIURNAL
+                )),
+                RABBIT_MAX_AGE,
+                initialSize,
+                initialAgility,
+                initialConstitution,
+                initialStrength,
+                initialSpeed,
+                initialPerception,
+                initialStealth,
+                initialMinDamage,
+                initialPhysRes,
+                initialAttackAdv,
+                initialStealthAdv,
+                initialPerceptionAdv,
+                initialEvasionAdv,
+                initialBattleActionPoints,
+                initialReactionPoints,
+                initialStoredEnergy,
+                initialFatStorage);
 
-        // Rabbit-specific initialization could go here LATER, but none needed now.
-        // The Animal constructor already logs the creation.
-        // logger.log(Level.CONFIG, "Minimal Rabbit instance created: ID {0}", this.getId()); // Optional extra log
+        this.setCurrAge(RABBIT_INITIAL_CURR_AGE);
+
+        this.setMovementCost(Terrain.PLAIN, 1.0f);
+        this.setMovementCost(Terrain.HILL, 1.25f);
+        this.setMovementCost(Terrain.WATER, 3.0f);
+        this.setMovementCost(Terrain.MOUNTAIN, 2.5f);
+
+        Animal.logger.log(Level.CONFIG, "Rabbit instance created: ID {0}, Age: {1}/{2}, Cell: [{3},{4}]",
+                new Object[]{this.getId(), this.getCurrAge(), this.getMaxAge(), initialCell.getX(), initialCell.getY()});
     }
 
-    // No other methods are needed in this minimal version unless:
-    // 1. Animal class has abstract methods that Rabbit must implement.
-    // 2. You want to override specific Animal behavior LATER.
+    // --- Method Overrides and Interface Method Usage ---
+
+    @Override
+    public void hide(Animal animal) {
+        if (!animal.equals(this)) {
+            Animal.logger.log(Level.WARNING, "Rabbit.hide() called with an animal (" + animal.getId() + ") that is not this Rabbit instance (" + this.getId() + ").");
+        }
+        HidingPrey.super.hide(animal);
+    }
+
+    // Herbivore methods
+    @Override
+    public void eatPlant(Animal animal) {
+        if (!animal.equals(this)) {
+            Animal.logger.log(Level.WARNING, "Rabbit.eatPlant() called with an animal (" + animal.getId() + ") that is not this Rabbit instance (" + this.getId() + ").");
+        }
+        Herbivore.super.eatPlant(animal);
+    }
+
+    @Override
+    public void eatAlive(Animal animal, Animal prey) {
+        if (!animal.equals(this)) {
+            Animal.logger.log(Level.WARNING, "Rabbit.eatAlive() called with an animal (" + animal.getId() + ") that is not this Rabbit instance (" + this.getId() + ").");
+        }
+        Animal.logger.log(Level.INFO, "Rabbit " + this.getId() + " is attempting to 'eat alive' another animal. This is highly unusual for a herbivore.");
+        Herbivore.super.eatAlive(animal, prey);
+    }
+
+    @Override
+    public void eatDead(Animal animal, Corpse corpse) {
+        if (!animal.equals(this)) {
+            Animal.logger.log(Level.WARNING, "Rabbit.eatDead() called with an animal (" + animal.getId() + ") that is not this Rabbit instance (" + this.getId() + ").");
+        }
+        Animal.logger.log(Level.INFO, "Rabbit " + this.getId() + " is attempting to eat a corpse. This is highly unusual for a herbivore.");
+        Herbivore.super.eatDead(animal, corpse);
+    }
+
+
+    // --- Public methods to expose inherited default behaviors from Basic (via HidingPrey) ---
+    public void performAttack(Animal defender) {
+        HidingPrey.super.attack(this, defender);
+        Animal.logger.log(Level.INFO, "Rabbit " + this.getId() + " is attempting to attack. This is unusual.");
+        HidingPrey.super.attack(this, defender);
+    }
+
+    public void performGoReckless() {
+        HidingPrey.super.goReckless(this);
+    }
+
+    public void performResting() {
+        HidingPrey.super.resting(this);
+    }
+
+    public void performDeepResting() {
+        HidingPrey.super.deepResting(this);
+    }
+
+    public void performDisengage() {
+        HidingPrey.super.disengage(this);
+    }
+
+    public void performFocusOnSurroundings() {
+        HidingPrey.super.focusOnSurroundings(this);
+    }
+
+    public void performRun() {
+        HidingPrey.super.run(this);
+    }
 }

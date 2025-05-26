@@ -9,6 +9,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.*;
 
+import static util.SimManager.allAnimals;
+
 public class SimulationRunner {
 //Think about Postgres integration, to save simulations, or maybe just save game files? Eh, deal with it if you have the time
     private static final Logger logger = Logger.getLogger(SimulationRunner.class.getName());
@@ -23,11 +25,11 @@ public class SimulationRunner {
 
     public static void main(String[] args) {
         Logger rootLogger = Logger.getLogger("");
-        rootLogger.setLevel(Level.ALL);
+        rootLogger.setLevel(Level.INFO);
 
         for (Handler handler : rootLogger.getHandlers()) {
             if (handler instanceof ConsoleHandler) {
-                handler.setLevel(Level.ALL);
+                handler.setLevel(Level.INFO);
                 // handler.setFormatter(new SimpleFormatter());
                 System.out.println("ConsoleHandler level set to ALL."); // Confirm it's set
             }
@@ -36,7 +38,7 @@ public class SimulationRunner {
 
     try {
         FileHandler fileHandler = new FileHandler("simulation.log");
-        fileHandler.setLevel(Level.ALL);
+        fileHandler.setLevel(Level.INFO);
         fileHandler.setFormatter(new SimpleFormatter());
         rootLogger.addHandler(fileHandler);
         System.out.println("Added FileHandler.");
@@ -71,20 +73,18 @@ public class SimulationRunner {
 
 
         // 2. Initialize Animal List
-        List<Animal> animalList = new ArrayList<>();
 
         // 3. Spawn Initial Population using Spawner
-        // The Spawner adds animals to the list and places them on the map cells
-        Spawner.spawnInitialPopulation(animalList, map, INITIAL_WOLVES, INITIAL_RABBITS);
-
+        Spawner.spawnInitialPopulation(3, 5, 4,
+                4, 3, 3, 5);
         // Check if spawning was successful
-        if (animalList.isEmpty()) {
+        if (allAnimals.isEmpty()) {
             logger.log(Level.WARNING, "No animals were spawned, simulation might be empty.");
             // Decide if you want to exit or continue
         }
 
         // 4. Create Simulation Manager instance
-        SimManager simManager = new SimManager(animalList, map);
+        SimManager simManager = new SimManager(allAnimals, map);
 
         // 5. Start the Simulation
         logger.log(Level.INFO, "Starting simulation run (max ticks defined in SimManager)...");

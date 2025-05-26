@@ -2,24 +2,24 @@ package Organisms.Animals.Corpses;
 
 import Map.MapStructure;
 import Organisms.Animals.Animal;
-import Organisms.Animals.Conditions.Condition;
+import Organisms.Animals.Conditions.Conditions;
 import Organisms.Animals.Conditions.ValueShenanigans;
 import util.SimManager;
 
 public class CorpsyStuff {
-    public Corpse generateCorpse(Animal animal){
+    public static Corpse generateCorpse(Animal animal){
         MapStructure.Cell cell = animal.getCell();
         Corpse corpse = new Corpse();
-        corpse.energyPoints=animal.getStoredEnergyPoints()+ (float) animal.getMaxHealth()*0.75f + animal.getFatStorage();
+        corpse.energyPoints=animal.getStoredEnergyPoints()+ (float) animal.getMaxHealth()*0.9f + animal.getFatStorage();
         corpse.size=animal.getSize();
         corpse.decayStage=DecayStage.FRESH;
         corpse.cell=cell;
-        if(animal.conditions.contains(Condition.SEVERELY_BLEEDING)
-                || animal.conditions.contains(Condition.INCAPACITATED)
-                || animal.conditions.contains(Condition.DAZED)
-                || animal.conditions.contains(Condition.PRONE)) corpse.decaySpeed=DecaySpeed.FAST;
-        else if(animal.conditions.contains(Condition.STARVING)
-                || animal.conditions.contains(Condition.SUPER_STARVING)) corpse.decaySpeed=DecaySpeed.SLOW;
+        if(animal.conditions.contains(Conditions.SEVERELY_BLEEDING)
+                || animal.conditions.contains(Conditions.INCAPACITATED)
+                || animal.conditions.contains(Conditions.DAZED)
+                || animal.conditions.contains(Conditions.PRONE)) corpse.decaySpeed=DecaySpeed.FAST;
+        else if(animal.conditions.contains(Conditions.STARVING)
+                || animal.conditions.contains(Conditions.SUPER_STARVING)) corpse.decaySpeed=DecaySpeed.SLOW;
         else corpse.decaySpeed=DecaySpeed.MEDIUM;
         cell.removeAnimal(animal);
         ValueShenanigans.cleanRecords(animal);
@@ -28,7 +28,7 @@ public class CorpsyStuff {
         return corpse;
 
     }
-    public void decay(Corpse corpse){
+    public static void decay(Corpse corpse){
         int timeSinceDeath = SimManager.getTick()-corpse.getDeathDate();
         MapStructure.Cell cell = corpse.cell;
         if(corpse.decaySpeed.equals(DecaySpeed.SLOW)){

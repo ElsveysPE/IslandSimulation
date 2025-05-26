@@ -3,23 +3,20 @@ package Organisms.Animals.Conditions;
 import Organisms.Animals.Animal;
 
 import java.lang.reflect.Field;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 import java.util.Map.Entry;
 import java.util.logging.Logger;
 import java.util.logging.Level;
 
 public class ValueShenanigans {
     private static final Logger logger = Logger.getLogger(ValueShenanigans.class.getName());
-    public static HashMap<Animal, HashMap<Condition, HashMap<Field, Integer>>> originalIntValueStorage;
-    public static HashMap<Animal, HashMap<Condition, HashMap<Field, Float>>> originalFloatValueStorage;
+    public static HashMap<Animal, HashMap<Conditions, HashMap<Field, Integer>>> originalIntValueStorage;
+    public static HashMap<Animal, HashMap<Conditions, HashMap<Field, Float>>> originalFloatValueStorage;
     static {
         originalIntValueStorage = new HashMap<>();
         originalFloatValueStorage = new HashMap<>();
     }
-    public static void affectIntStat(Animal animal, Condition condition, String stat, int change) {
+    public static void affectIntStat(Animal animal, Conditions condition, String stat, int change) {
         try {
             Field field;
             field = Animal.class.getDeclaredField(stat);
@@ -43,7 +40,7 @@ public class ValueShenanigans {
             logger.log(Level.SEVERE, "Failed to modify " + stat + " for " + animal, e);
         }
     }
-    public void affectFloatStat(Animal animal, Condition condition, String stat, float change){
+    public void affectFloatStat(Animal animal, Conditions condition, String stat, float change){
         try {
             Field field;
             field = Animal.class.getDeclaredField(stat);
@@ -66,7 +63,7 @@ public class ValueShenanigans {
             logger.log(Level.SEVERE, "Failed to modify " + stat + " for " + animal, e);
         }
     }
-    public static void reverseIntChanges(Animal animal, Condition condition) {
+    public static void reverseIntChanges(Animal animal, Conditions condition) {
             if(originalIntValueStorage.containsKey(animal) && originalIntValueStorage.get(animal).containsKey(condition)){
                 HashMap<Field, Integer> statChanges = originalIntValueStorage.get(animal).get(condition);
                     for (Entry<Field, Integer> entry : statChanges.entrySet()) {
@@ -85,10 +82,10 @@ public class ValueShenanigans {
                     originalIntValueStorage.remove(animal);
                 }
             }
-            else logger.log(Level.WARNING, "Failed to find animal " + animal + " or condition " + condition);
+            else logger.log(Level.FINE, "Failed to find animal " + animal + " or condition " + condition);
         }
 
-    public void reverseFloatChanges(Animal animal, Condition condition){
+    public void reverseFloatChanges(Animal animal, Conditions condition){
         HashMap<Field, Float> statChanges = new HashMap<>();
         if(originalFloatValueStorage.containsKey(animal) && originalFloatValueStorage.get(animal).containsKey(condition)){
             statChanges = originalFloatValueStorage.get(animal).get(condition);
@@ -108,7 +105,7 @@ public class ValueShenanigans {
                 originalFloatValueStorage.remove(animal);
             }
         }
-        else logger.log(Level.WARNING, "Failed to find animal " + animal + " or condition" + condition);
+        else logger.log(Level.FINE, "Failed to find animal " + animal + " or condition" + condition);
     }
     public static void cleanRecords(Animal animal){
         originalIntValueStorage.remove(animal);

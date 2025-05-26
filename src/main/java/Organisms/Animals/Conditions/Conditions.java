@@ -1,6 +1,6 @@
 package Organisms.Animals.Conditions;
 
-public enum Condition {
+public enum Conditions {
     MILDLY_ILL,
     SEVERELY_ILL,
     FATIGUED,

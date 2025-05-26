@@ -3,7 +3,6 @@ package Map;
 import Organisms.Animals.Animal;
 import Organisms.Animals.Corpses.Corpse;
 import Organisms.Organism;
-import Organisms.Plants.Plant;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -27,33 +26,8 @@ public class MapStructure {
         public int getCurrPlantCapacity() {
             return currPlantCapacity;
         }
-        private HashSet<Plant> plants;
-        public HashSet<Plant> getPlants(){
-            return plants;
-        }
 
-        public void addPlant(Plant plant) {
-            if (currPlantCapacity + plant.getSize() <= plantCapacity) {
-                if (this.plants.add(plant)) {
-                    currPlantCapacity += plant.getSize();
-                    logger.log(Level.FINER, "Plant[{0}] successfully added to cell [{0},{1}]", new Object[]{x, y, plant.getId()});
-                }
-                else  logger.log(Level.WARNING, "Couldn`t add plant [{0}] to cell [{1},{2}] it already existed",
-                        new Object[]{plant.getId(), x, y});
-            } else {
-                logger.log(Level.FINE, "Plant capacity reached in cell [{0},{1}], cannot add {2}", new Object[]{x, y, plant.getId()});
-            }
-        }
-
-        public void removePlant(Plant plant) {
-            if (this.plants.remove(plant)) {
-                currPlantCapacity -= plant.getSize();
-                if (currPlantCapacity < 0) currPlantCapacity = 0;
-                logger.log(Level.FINER,"Plant[{0}] successfully removed from cell [{0},{1}]", new Object[]{x, y, plant.getId()});
-            }
-            else  logger.log(Level.WARNING, "Couldn`t remove plant [{0}] from cell [{1},{2}] it didn`t exist",
-                    new Object[]{plant.getId(), x, y});
-        }
+        private Growth growth;
 
         private int currAnimalCapacity;
 
@@ -116,15 +90,16 @@ public class MapStructure {
 
         public void removeAnimal(Animal animal) {
             if (this.animals.remove(animal)) {
-                currAnimalCapacity -= animal.getSize();
                 if (currAnimalCapacity < 0) {
                     logger.log(Level.WARNING, "currAnimalCapacity fell below zero in cell [{0},{1}], resetting to 0.", new Object[]{this.x, this.y});
                     currAnimalCapacity = 0;
+                } else {
+                    currAnimalCapacity -= animal.getSize();
+                    logger.log(Level.FINER,
+                            "Animal {0} removed from cell [{1},{2}]. Current animal capacity: {3}",
+                            new Object[]{animal.getId(), this.x, this.y, currAnimalCapacity});
                 }
-                logger.log(Level.FINER,
-                        "Animal {0} removed from cell [{1},{2}]. Current animal capacity: {3}",
-                        new Object[]{animal.getId(), this.x, this.y, currAnimalCapacity});
-            } else {
+            }else {
                 logger.log(Level.WARNING,
                         "Attempted to remove Animal {0} from cell [{1},{2}], but it was not present.",
                         new Object[]{animal.getId(), this.x, this.y});
@@ -142,13 +117,13 @@ public class MapStructure {
             this.y = y;
             this.terrain = terrain;
 
-            this.plants = new HashSet<>();
             this.animals = new HashSet<>();
             this.corpses = new HashSet<>();
 
             this.currPlantCapacity = 0;
             this.currAnimalCapacity = 0;
             this.currCorpseCapacity = 0;
+            this.growth = Growth.NONE;
 
         }
 
@@ -174,6 +149,17 @@ public class MapStructure {
 
         public void setTerrain(Terrain terrain) {
             this.terrain = terrain;
+        }
+        public void setCurrPlantCapacity(int currPlantCapacity){
+            this.currAnimalCapacity= currPlantCapacity;
+        }
+
+        public Growth getGrowth() {
+            return growth;
+        }
+
+        public void setGrowth(Growth growth) {
+            this.growth = growth;
         }
     }
 }

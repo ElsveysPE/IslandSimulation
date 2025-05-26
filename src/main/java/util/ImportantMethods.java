@@ -1,5 +1,9 @@
 package util;
 
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Random;
+
 public class ImportantMethods {
     public static <T> boolean isArrayFull(T[][] array) {
         for (T[] row : array) {
@@ -96,5 +100,17 @@ public class ImportantMethods {
         int rollA = (int) (Math.random()*100)+1+modifier;
         int rollB = (int) (Math.random()*100)+1+modifier;
         return Math.min(rollA, rollB);
+    }
+    public static <T> T HashSetRandomElement(HashSet<T> set) {
+        if (set == null || set.isEmpty()) {
+            return null;
+        }
+        Random random = new Random();
+        int randomIndex = random.nextInt(set.size());
+        Iterator<T> iterator = set.iterator();
+        for (int i = 0; i < randomIndex; i++) {
+            iterator.next();
+        }
+        return iterator.next();
     }
 }
