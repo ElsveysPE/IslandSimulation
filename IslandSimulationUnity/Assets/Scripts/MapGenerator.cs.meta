@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f5ed83e95480cd746929cd11ace48969
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - wolfPrefab: {fileID: 175852, guid: f8243bb353e5cb74481bb26fe62fd298, type: 3}
+  - rabbitPrefab: {fileID: 100042, guid: 0962bdca27eaca34aaa15f7fdf608faf, type: 3}
+  - mapTilePrefab: {fileID: 5978314360989036182, guid: 6091635c122486b408300907bd42d16a, type: 3}
+  - plainMaterial: {fileID: 2100000, guid: 713c8dadb8629e04798d4bb4559e9fd0, type: 2}
+  - hillMaterial: {fileID: 2100000, guid: ddbc29f8352df1940abaebc84519f944, type: 2}
+  - mountainMaterial: {fileID: 2100000, guid: 8b10ab7dc25fbc04c8e45623d5b06a41, type: 2}
+  - waterMaterial: {fileID: 2100000, guid: f56fba1e4eca9b44cb3e4fc9d5fa6d4c, type: 2}
+  - defaultMaterial: {fileID: 2100000, guid: ff3a2548c0b2bae48a6cfa010ed3c561, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

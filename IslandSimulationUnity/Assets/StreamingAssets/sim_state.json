@@ -1,0 +1,5927 @@
+{
+  "tick": 0,
+  "dayTime": "MORNING",
+  "worldMapWidth": 25,
+  "worldMapHeight": 25,
+  "worldMapGrid": [
+    {
+      "x": 0,
+      "y": 0,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 0,
+      "y": 6,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 0,
+      "y": 7,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 0,
+      "y": 8,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 0,
+      "y": 9,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 0,
+      "y": 10,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 0,
+      "y": 11,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 0,
+      "y": 12,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 0,
+      "y": 13,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 0,
+      "y": 14,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 0,
+      "y": 15,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 0,
+      "y": 16,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 0,
+      "y": 17,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 0,
+      "y": 18,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 0,
+      "y": 19,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 0,
+      "y": 20,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 0,
+      "y": 21,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 0,
+      "y": 22,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 0,
+      "y": 23,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 0,
+      "y": 24,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 1,
+      "y": 8,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 1,
+      "y": 9,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 1,
+      "y": 10,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 1,
+      "y": 11,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 1,
+      "y": 12,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 1,
+      "y": 13,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 1,
+      "y": 14,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 1,
+      "y": 15,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 1,
+      "y": 16,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 1,
+      "y": 17,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 1,
+      "y": 18,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 1,
+      "y": 19,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 1,
+      "y": 20,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 1,
+      "y": 21,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 1,
+      "y": 22,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 1,
+      "y": 23,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 1,
+      "y": 24,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 2,
+      "y": 9,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 2,
+      "y": 10,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 2,
+      "y": 11,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 2,
+      "y": 12,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 2,
+      "y": 13,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 2,
+      "y": 14,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 2,
+      "y": 15,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 2,
+      "y": 16,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 2,
+      "y": 17,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 2,
+      "y": 18,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 2,
+      "y": 19,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 2,
+      "y": 20,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 2,
+      "y": 21,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 2,
+      "y": 22,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 2,
+      "y": 23,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 2,
+      "y": 24,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 3,
+      "y": 14,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 3,
+      "y": 16,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 3,
+      "y": 17,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 3,
+      "y": 18,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 3,
+      "y": 19,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 3,
+      "y": 20,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 3,
+      "y": 21,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 3,
+      "y": 22,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 3,
+      "y": 23,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 3,
+      "y": 24,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 4,
+      "y": 9,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 4,
+      "y": 10,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 4,
+      "y": 11,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 4,
+      "y": 12,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 4,
+      "y": 13,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 4,
+      "y": 16,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 4,
+      "y": 17,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 4,
+      "y": 18,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 4,
+      "y": 19,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 4,
+      "y": 20,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 4,
+      "y": 21,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 4,
+      "y": 22,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 4,
+      "y": 23,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 4,
+      "y": 24,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 5,
+      "y": 8,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 5,
+      "y": 9,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 5,
+      "y": 10,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 5,
+      "y": 11,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 5,
+      "y": 12,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 5,
+      "y": 13,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 5,
+      "y": 14,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 5,
+      "y": 15,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 5,
+      "y": 17,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 5,
+      "y": 18,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 5,
+      "y": 19,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 5,
+      "y": 20,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 5,
+      "y": 21,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 5,
+      "y": 22,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 5,
+      "y": 23,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 5,
+      "y": 24,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 6,
+      "y": 6,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 6,
+      "y": 7,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 6,
+      "y": 9,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 6,
+      "y": 10,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 6,
+      "y": 11,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 6,
+      "y": 12,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 6,
+      "y": 13,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 6,
+      "y": 14,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 6,
+      "y": 15,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 6,
+      "y": 16,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 6,
+      "y": 17,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 6,
+      "y": 18,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 6,
+      "y": 19,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 6,
+      "y": 20,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 6,
+      "y": 21,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 6,
+      "y": 22,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 6,
+      "y": 23,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 6,
+      "y": 24,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 7,
+      "y": 4,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 7,
+      "y": 5,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 7,
+      "y": 6,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 7,
+      "y": 7,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 7,
+      "y": 8,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 7,
+      "y": 9,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 7,
+      "y": 10,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 7,
+      "y": 11,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 7,
+      "y": 12,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 7,
+      "y": 13,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 7,
+      "y": 14,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 7,
+      "y": 15,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 7,
+      "y": 16,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 7,
+      "y": 17,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 7,
+      "y": 18,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 7,
+      "y": 19,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 7,
+      "y": 20,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 7,
+      "y": 21,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 7,
+      "y": 22,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 7,
+      "y": 23,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 7,
+      "y": 24,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 8,
+      "y": 3,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 8,
+      "y": 4,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 8,
+      "y": 5,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 8,
+      "y": 7,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 8,
+      "y": 8,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 8,
+      "y": 9,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 8,
+      "y": 10,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 8,
+      "y": 11,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 8,
+      "y": 12,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 8,
+      "y": 13,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 8,
+      "y": 14,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 8,
+      "y": 15,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 8,
+      "y": 16,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 8,
+      "y": 17,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 8,
+      "y": 18,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 8,
+      "y": 19,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 8,
+      "y": 20,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 8,
+      "y": 21,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 8,
+      "y": 22,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 8,
+      "y": 23,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 8,
+      "y": 24,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 9,
+      "y": 1,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 9,
+      "y": 3,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 9,
+      "y": 4,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 9,
+      "y": 5,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 9,
+      "y": 6,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 9,
+      "y": 7,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 9,
+      "y": 8,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 9,
+      "y": 9,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 9,
+      "y": 10,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 9,
+      "y": 11,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 9,
+      "y": 12,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 9,
+      "y": 13,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 9,
+      "y": 14,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 9,
+      "y": 15,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 9,
+      "y": 16,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 9,
+      "y": 17,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 9,
+      "y": 18,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 9,
+      "y": 19,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 9,
+      "y": 20,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 9,
+      "y": 21,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 9,
+      "y": 22,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 9,
+      "y": 23,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 9,
+      "y": 24,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 10,
+      "y": 0,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 10,
+      "y": 2,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 10,
+      "y": 3,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 10,
+      "y": 4,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 10,
+      "y": 5,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 10,
+      "y": 6,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 10,
+      "y": 7,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 10,
+      "y": 8,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 10,
+      "y": 9,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 10,
+      "y": 11,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 10,
+      "y": 12,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 10,
+      "y": 13,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 10,
+      "y": 14,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 10,
+      "y": 15,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 10,
+      "y": 16,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 10,
+      "y": 17,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 10,
+      "y": 18,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 10,
+      "y": 19,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 10,
+      "y": 20,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 10,
+      "y": 21,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 10,
+      "y": 22,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 10,
+      "y": 23,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 10,
+      "y": 24,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 11,
+      "y": 0,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 11,
+      "y": 1,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 11,
+      "y": 2,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 11,
+      "y": 3,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 11,
+      "y": 4,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 11,
+      "y": 5,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 11,
+      "y": 6,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 11,
+      "y": 7,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 11,
+      "y": 8,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 11,
+      "y": 9,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 11,
+      "y": 10,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 11,
+      "y": 11,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 11,
+      "y": 12,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 11,
+      "y": 13,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 11,
+      "y": 14,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 11,
+      "y": 15,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 11,
+      "y": 16,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 11,
+      "y": 17,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 11,
+      "y": 18,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 11,
+      "y": 19,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 11,
+      "y": 20,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 11,
+      "y": 21,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 11,
+      "y": 22,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 11,
+      "y": 23,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 11,
+      "y": 24,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 12,
+      "y": 0,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 12,
+      "y": 1,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 12,
+      "y": 2,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 12,
+      "y": 3,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 12,
+      "y": 4,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 12,
+      "y": 5,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 12,
+      "y": 6,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 12,
+      "y": 7,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 12,
+      "y": 8,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 12,
+      "y": 9,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 12,
+      "y": 10,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 12,
+      "y": 11,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 12,
+      "y": 12,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 12,
+      "y": 13,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 12,
+      "y": 14,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 12,
+      "y": 15,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 12,
+      "y": 16,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 12,
+      "y": 17,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 12,
+      "y": 18,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 12,
+      "y": 19,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 12,
+      "y": 20,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 12,
+      "y": 21,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 12,
+      "y": 22,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 12,
+      "y": 23,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 12,
+      "y": 24,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 13,
+      "y": 0,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 13,
+      "y": 1,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 13,
+      "y": 2,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 13,
+      "y": 3,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 13,
+      "y": 4,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 13,
+      "y": 5,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 13,
+      "y": 6,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 13,
+      "y": 7,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 13,
+      "y": 8,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 13,
+      "y": 9,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 13,
+      "y": 10,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 13,
+      "y": 11,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 13,
+      "y": 12,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 13,
+      "y": 13,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 13,
+      "y": 14,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 13,
+      "y": 15,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 13,
+      "y": 16,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 13,
+      "y": 17,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 13,
+      "y": 18,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 13,
+      "y": 19,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 13,
+      "y": 20,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 13,
+      "y": 21,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 13,
+      "y": 22,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 13,
+      "y": 23,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 13,
+      "y": 24,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 14,
+      "y": 0,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 14,
+      "y": 1,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 14,
+      "y": 2,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 14,
+      "y": 3,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 14,
+      "y": 4,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 14,
+      "y": 5,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 14,
+      "y": 6,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 14,
+      "y": 7,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 14,
+      "y": 8,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 14,
+      "y": 9,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 14,
+      "y": 10,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 14,
+      "y": 11,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 14,
+      "y": 12,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 14,
+      "y": 13,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 14,
+      "y": 14,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 14,
+      "y": 15,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 14,
+      "y": 16,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 14,
+      "y": 17,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 14,
+      "y": 18,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 14,
+      "y": 19,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 14,
+      "y": 20,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 14,
+      "y": 21,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 14,
+      "y": 22,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 14,
+      "y": 23,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 14,
+      "y": 24,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 15,
+      "y": 0,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 15,
+      "y": 1,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 15,
+      "y": 2,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 15,
+      "y": 3,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 15,
+      "y": 4,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 15,
+      "y": 5,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 15,
+      "y": 6,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 15,
+      "y": 7,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 15,
+      "y": 8,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 15,
+      "y": 9,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 15,
+      "y": 10,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 15,
+      "y": 11,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 15,
+      "y": 12,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 15,
+      "y": 13,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 15,
+      "y": 14,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 15,
+      "y": 15,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 15,
+      "y": 16,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 15,
+      "y": 17,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 15,
+      "y": 18,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 15,
+      "y": 19,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 15,
+      "y": 20,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 15,
+      "y": 21,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 15,
+      "y": 22,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 15,
+      "y": 23,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 15,
+      "y": 24,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 16,
+      "y": 0,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 16,
+      "y": 1,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 16,
+      "y": 2,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 16,
+      "y": 3,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 16,
+      "y": 4,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 16,
+      "y": 5,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 16,
+      "y": 6,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 16,
+      "y": 7,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 16,
+      "y": 8,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 16,
+      "y": 9,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 16,
+      "y": 10,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 16,
+      "y": 11,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 16,
+      "y": 12,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 16,
+      "y": 13,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 16,
+      "y": 14,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 16,
+      "y": 15,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 16,
+      "y": 16,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 16,
+      "y": 17,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 16,
+      "y": 18,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 16,
+      "y": 19,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 16,
+      "y": 20,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 16,
+      "y": 21,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 16,
+      "y": 22,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 16,
+      "y": 23,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 16,
+      "y": 24,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 17,
+      "y": 0,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 17,
+      "y": 1,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 17,
+      "y": 2,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 17,
+      "y": 3,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 17,
+      "y": 4,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 17,
+      "y": 5,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 17,
+      "y": 6,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 17,
+      "y": 7,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 17,
+      "y": 8,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 17,
+      "y": 9,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 17,
+      "y": 10,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 17,
+      "y": 11,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 17,
+      "y": 12,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 17,
+      "y": 13,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 17,
+      "y": 14,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 17,
+      "y": 15,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 17,
+      "y": 16,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 17,
+      "y": 17,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 17,
+      "y": 18,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 17,
+      "y": 19,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 17,
+      "y": 20,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 17,
+      "y": 21,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 17,
+      "y": 22,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 17,
+      "y": 23,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 17,
+      "y": 24,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 18,
+      "y": 0,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 18,
+      "y": 1,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 18,
+      "y": 2,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 18,
+      "y": 3,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 18,
+      "y": 4,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 18,
+      "y": 5,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 18,
+      "y": 6,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 18,
+      "y": 7,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 18,
+      "y": 8,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 18,
+      "y": 9,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 18,
+      "y": 10,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 18,
+      "y": 11,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 18,
+      "y": 12,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 18,
+      "y": 13,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 18,
+      "y": 14,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 18,
+      "y": 15,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 18,
+      "y": 16,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 18,
+      "y": 17,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 18,
+      "y": 18,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 18,
+      "y": 19,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 18,
+      "y": 20,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 18,
+      "y": 21,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 18,
+      "y": 22,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 18,
+      "y": 23,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 18,
+      "y": 24,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 19,
+      "y": 0,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 19,
+      "y": 1,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 19,
+      "y": 2,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 19,
+      "y": 3,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 19,
+      "y": 4,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 19,
+      "y": 5,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 19,
+      "y": 6,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 19,
+      "y": 7,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 19,
+      "y": 8,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 19,
+      "y": 9,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 19,
+      "y": 10,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 19,
+      "y": 11,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 19,
+      "y": 12,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 19,
+      "y": 13,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 19,
+      "y": 14,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 19,
+      "y": 15,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 19,
+      "y": 16,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 19,
+      "y": 17,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 19,
+      "y": 18,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 19,
+      "y": 19,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 19,
+      "y": 20,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 19,
+      "y": 21,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 19,
+      "y": 22,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 19,
+      "y": 23,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 19,
+      "y": 24,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 20,
+      "y": 0,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 20,
+      "y": 1,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 20,
+      "y": 2,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 20,
+      "y": 3,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 20,
+      "y": 4,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 20,
+      "y": 5,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 20,
+      "y": 6,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 20,
+      "y": 7,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 20,
+      "y": 8,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 20,
+      "y": 9,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 20,
+      "y": 10,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 20,
+      "y": 11,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 20,
+      "y": 12,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 20,
+      "y": 13,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 20,
+      "y": 14,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 20,
+      "y": 15,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 20,
+      "y": 16,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 20,
+      "y": 17,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 20,
+      "y": 18,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 20,
+      "y": 19,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 20,
+      "y": 20,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 20,
+      "y": 21,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 20,
+      "y": 22,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 20,
+      "y": 23,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 20,
+      "y": 24,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 21,
+      "y": 0,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 21,
+      "y": 1,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 21,
+      "y": 2,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 21,
+      "y": 3,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 21,
+      "y": 4,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 21,
+      "y": 5,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 21,
+      "y": 6,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 21,
+      "y": 7,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 21,
+      "y": 8,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 21,
+      "y": 9,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 21,
+      "y": 10,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 21,
+      "y": 11,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 21,
+      "y": 12,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 21,
+      "y": 13,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 21,
+      "y": 14,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 21,
+      "y": 15,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 21,
+      "y": 16,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 21,
+      "y": 17,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 21,
+      "y": 18,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 21,
+      "y": 19,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 21,
+      "y": 20,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 21,
+      "y": 21,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 21,
+      "y": 22,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 21,
+      "y": 23,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 21,
+      "y": 24,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 22,
+      "y": 0,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 22,
+      "y": 1,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 22,
+      "y": 2,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 22,
+      "y": 3,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 22,
+      "y": 4,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 22,
+      "y": 5,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 22,
+      "y": 6,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 22,
+      "y": 7,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 22,
+      "y": 8,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 22,
+      "y": 9,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 22,
+      "y": 10,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 22,
+      "y": 11,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 22,
+      "y": 12,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 22,
+      "y": 13,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 22,
+      "y": 14,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 22,
+      "y": 15,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 22,
+      "y": 16,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 22,
+      "y": 17,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 22,
+      "y": 18,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 22,
+      "y": 19,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 22,
+      "y": 20,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 22,
+      "y": 21,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 22,
+      "y": 22,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 22,
+      "y": 23,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 22,
+      "y": 24,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 23,
+      "y": 0,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 23,
+      "y": 3,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 23,
+      "y": 4,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 23,
+      "y": 5,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 23,
+      "y": 6,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 23,
+      "y": 7,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 23,
+      "y": 8,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 23,
+      "y": 9,
+      "terrainType": "MOUNTAIN"
+    },
+    {
+      "x": 23,
+      "y": 10,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 23,
+      "y": 11,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 23,
+      "y": 12,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 23,
+      "y": 13,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 23,
+      "y": 14,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 23,
+      "y": 15,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 23,
+      "y": 16,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 23,
+      "y": 17,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 23,
+      "y": 18,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 23,
+      "y": 19,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 23,
+      "y": 20,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 23,
+      "y": 21,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 23,
+      "y": 22,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 23,
+      "y": 23,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 23,
+      "y": 24,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 24,
+      "y": 0,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 24,
+      "y": 3,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 24,
+      "y": 4,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 24,
+      "y": 5,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 24,
+      "y": 6,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 24,
+      "y": 7,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 24,
+      "y": 8,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 24,
+      "y": 9,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 24,
+      "y": 10,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 24,
+      "y": 11,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 24,
+      "y": 12,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 24,
+      "y": 13,
+      "terrainType": "PLAIN"
+    },
+    {
+      "x": 24,
+      "y": 14,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 24,
+      "y": 15,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 24,
+      "y": 16,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 24,
+      "y": 17,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 24,
+      "y": 18,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 24,
+      "y": 19,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 24,
+      "y": 20,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 24,
+      "y": 21,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 24,
+      "y": 22,
+      "terrainType": "WATER"
+    },
+    {
+      "x": 24,
+      "y": 23,
+      "terrainType": "HILL"
+    },
+    {
+      "x": 24,
+      "y": 24,
+      "terrainType": "PLAIN"
+    }
+  ],
+  "animalsOnWorldMap": [
+    {
+      "id": 75,
+      "speciesType": "Iguana",
+      "isFemale": false,
+      "x": 1,
+      "y": 20,
+      "healthPoints": 75,
+      "maxHealth": 75,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 0,
+      "currentMovementPoints": -5.0,
+      "maxMovementPoints": 1.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 2,
+      "agility": 16,
+      "constitution": 11,
+      "strength": 4,
+      "speed": 7,
+      "perception": 12,
+      "stealth": 15,
+      "currentStealthValue": 15,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 54,
+      "speciesType": "Fox",
+      "isFemale": false,
+      "x": 19,
+      "y": 3,
+      "healthPoints": 205,
+      "maxHealth": 205,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 0,
+      "currentMovementPoints": 0.0,
+      "maxMovementPoints": 5.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 13,
+      "agility": 20,
+      "constitution": 15,
+      "strength": 13,
+      "speed": 20,
+      "perception": 19,
+      "stealth": 20,
+      "currentStealthValue": 20,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 33,
+      "speciesType": "Rabbit",
+      "isFemale": true,
+      "x": 13,
+      "y": 4,
+      "healthPoints": 105,
+      "maxHealth": 105,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 0,
+      "currentMovementPoints": -2.0,
+      "maxMovementPoints": 6.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 6,
+      "agility": 17,
+      "constitution": 9,
+      "strength": 5,
+      "speed": 24,
+      "perception": 13,
+      "stealth": 23,
+      "currentStealthValue": 23,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 46,
+      "speciesType": "Deer",
+      "isFemale": false,
+      "x": 12,
+      "y": 19,
+      "healthPoints": 245,
+      "maxHealth": 245,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 0,
+      "currentMovementPoints": -0.5,
+      "maxMovementPoints": 4.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 18,
+      "agility": 22,
+      "constitution": 13,
+      "strength": 10,
+      "speed": 16,
+      "perception": 15,
+      "stealth": 18,
+      "currentStealthValue": 18,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 55,
+      "speciesType": "Fox",
+      "isFemale": true,
+      "x": 5,
+      "y": 11,
+      "healthPoints": 185,
+      "maxHealth": 185,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 0,
+      "currentMovementPoints": -1.5,
+      "maxMovementPoints": 5.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 12,
+      "agility": 16,
+      "constitution": 13,
+      "strength": 12,
+      "speed": 20,
+      "perception": 18,
+      "stealth": 19,
+      "currentStealthValue": 19,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 72,
+      "speciesType": "Iguana",
+      "isFemale": true,
+      "x": 3,
+      "y": 19,
+      "healthPoints": 95,
+      "maxHealth": 95,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 0,
+      "currentMovementPoints": -2.75,
+      "maxMovementPoints": 2.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 5,
+      "agility": 16,
+      "constitution": 9,
+      "strength": 4,
+      "speed": 11,
+      "perception": 20,
+      "stealth": 17,
+      "currentStealthValue": 17,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 17,
+      "speciesType": "Rabbit",
+      "isFemale": false,
+      "x": 15,
+      "y": 10,
+      "healthPoints": 105,
+      "maxHealth": 105,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 0,
+      "currentMovementPoints": -1.25,
+      "maxMovementPoints": 5.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 6,
+      "agility": 23,
+      "constitution": 9,
+      "strength": 2,
+      "speed": 21,
+      "perception": 18,
+      "stealth": 23,
+      "currentStealthValue": 23,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 73,
+      "speciesType": "Iguana",
+      "isFemale": true,
+      "x": 1,
+      "y": 18,
+      "healthPoints": 110,
+      "maxHealth": 110,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 0,
+      "currentMovementPoints": -2.5,
+      "maxMovementPoints": 2.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 5,
+      "agility": 11,
+      "constitution": 12,
+      "strength": 5,
+      "speed": 9,
+      "perception": 14,
+      "stealth": 18,
+      "currentStealthValue": 18,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 14,
+      "speciesType": "Rabbit",
+      "isFemale": true,
+      "x": 15,
+      "y": 11,
+      "healthPoints": 90,
+      "maxHealth": 90,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 0,
+      "currentMovementPoints": -2.0,
+      "maxMovementPoints": 4.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 3,
+      "agility": 16,
+      "constitution": 12,
+      "strength": 2,
+      "speed": 16,
+      "perception": 15,
+      "stealth": 24,
+      "currentStealthValue": 24,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 63,
+      "speciesType": "Iguana",
+      "isFemale": true,
+      "x": 9,
+      "y": 3,
+      "healthPoints": 90,
+      "maxHealth": 90,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 0,
+      "currentMovementPoints": -3.75,
+      "maxMovementPoints": 3.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 5,
+      "agility": 12,
+      "constitution": 8,
+      "strength": 4,
+      "speed": 12,
+      "perception": 14,
+      "stealth": 14,
+      "currentStealthValue": 14,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 84,
+      "speciesType": "Iguana",
+      "isFemale": false,
+      "x": 16,
+      "y": 15,
+      "healthPoints": 110,
+      "maxHealth": 110,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 0,
+      "currentMovementPoints": -2.75,
+      "maxMovementPoints": 2.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 4,
+      "agility": 17,
+      "constitution": 14,
+      "strength": 5,
+      "speed": 10,
+      "perception": 12,
+      "stealth": 16,
+      "currentStealthValue": 16,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 66,
+      "speciesType": "Iguana",
+      "isFemale": false,
+      "x": 7,
+      "y": 2,
+      "healthPoints": 90,
+      "maxHealth": 90,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 0,
+      "currentMovementPoints": -2.75,
+      "maxMovementPoints": 1.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 2,
+      "agility": 11,
+      "constitution": 14,
+      "strength": 4,
+      "speed": 6,
+      "perception": 15,
+      "stealth": 18,
+      "currentStealthValue": 18,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 58,
+      "speciesType": "Fox",
+      "isFemale": false,
+      "x": 21,
+      "y": 14,
+      "healthPoints": 200,
+      "maxHealth": 200,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 0,
+      "currentMovementPoints": -2.5,
+      "maxMovementPoints": 4.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 13,
+      "agility": 17,
+      "constitution": 14,
+      "strength": 9,
+      "speed": 18,
+      "perception": 15,
+      "stealth": 15,
+      "currentStealthValue": 15,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 57,
+      "speciesType": "Fox",
+      "isFemale": false,
+      "x": 7,
+      "y": 11,
+      "healthPoints": 160,
+      "maxHealth": 160,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 0,
+      "currentMovementPoints": 0.25,
+      "maxMovementPoints": 4.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 11,
+      "agility": 20,
+      "constitution": 10,
+      "strength": 8,
+      "speed": 18,
+      "perception": 21,
+      "stealth": 12,
+      "currentStealthValue": 12,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 42,
+      "speciesType": "Tiger",
+      "isFemale": true,
+      "x": 9,
+      "y": 0,
+      "healthPoints": 355,
+      "maxHealth": 355,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 1,
+      "currentMovementPoints": 5.0,
+      "maxMovementPoints": 5.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 30,
+      "agility": 18,
+      "constitution": 11,
+      "strength": 22,
+      "speed": 20,
+      "perception": 17,
+      "stealth": 20,
+      "currentStealthValue": 20,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 16,
+      "speciesType": "Rabbit",
+      "isFemale": false,
+      "x": 17,
+      "y": 8,
+      "healthPoints": 90,
+      "maxHealth": 90,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 4.0,
+      "maxMovementPoints": 4.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 3,
+      "agility": 20,
+      "constitution": 12,
+      "strength": 2,
+      "speed": 16,
+      "perception": 20,
+      "stealth": 16,
+      "currentStealthValue": 16,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 68,
+      "speciesType": "Iguana",
+      "isFemale": true,
+      "x": 9,
+      "y": 5,
+      "healthPoints": 100,
+      "maxHealth": 100,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 1.0,
+      "maxMovementPoints": 1.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 4,
+      "agility": 11,
+      "constitution": 12,
+      "strength": 2,
+      "speed": 5,
+      "perception": 13,
+      "stealth": 18,
+      "currentStealthValue": 18,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 67,
+      "speciesType": "Iguana",
+      "isFemale": true,
+      "x": 9,
+      "y": 5,
+      "healthPoints": 105,
+      "maxHealth": 105,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 2.5,
+      "maxMovementPoints": 2.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 4,
+      "agility": 17,
+      "constitution": 13,
+      "strength": 3,
+      "speed": 11,
+      "perception": 18,
+      "stealth": 22,
+      "currentStealthValue": 22,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 13,
+      "speciesType": "Rabbit",
+      "isFemale": true,
+      "x": 14,
+      "y": 11,
+      "healthPoints": 90,
+      "maxHealth": 90,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 5.0,
+      "maxMovementPoints": 5.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 6,
+      "agility": 18,
+      "constitution": 6,
+      "strength": 4,
+      "speed": 21,
+      "perception": 12,
+      "stealth": 17,
+      "currentStealthValue": 17,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 28,
+      "speciesType": "Rabbit",
+      "isFemale": true,
+      "x": 9,
+      "y": 7,
+      "healthPoints": 110,
+      "maxHealth": 110,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 5.5,
+      "maxMovementPoints": 5.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 5,
+      "agility": 25,
+      "constitution": 12,
+      "strength": 2,
+      "speed": 22,
+      "perception": 10,
+      "stealth": 15,
+      "currentStealthValue": 15,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 47,
+      "speciesType": "Deer",
+      "isFemale": false,
+      "x": 9,
+      "y": 21,
+      "healthPoints": 240,
+      "maxHealth": 240,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 3.5,
+      "maxMovementPoints": 3.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 18,
+      "agility": 20,
+      "constitution": 12,
+      "strength": 11,
+      "speed": 14,
+      "perception": 19,
+      "stealth": 12,
+      "currentStealthValue": 12,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 65,
+      "speciesType": "Iguana",
+      "isFemale": true,
+      "x": 7,
+      "y": 5,
+      "healthPoints": 120,
+      "maxHealth": 120,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 1.5,
+      "maxMovementPoints": 1.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 5,
+      "agility": 11,
+      "constitution": 14,
+      "strength": 6,
+      "speed": 7,
+      "perception": 18,
+      "stealth": 20,
+      "currentStealthValue": 20,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 24,
+      "speciesType": "Rabbit",
+      "isFemale": true,
+      "x": 4,
+      "y": 7,
+      "healthPoints": 70,
+      "maxHealth": 70,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 6.0,
+      "maxMovementPoints": 6.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 3,
+      "agility": 22,
+      "constitution": 8,
+      "strength": 4,
+      "speed": 24,
+      "perception": 17,
+      "stealth": 14,
+      "currentStealthValue": 14,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 48,
+      "speciesType": "Deer",
+      "isFemale": false,
+      "x": 9,
+      "y": 21,
+      "healthPoints": 230,
+      "maxHealth": 230,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 3.0,
+      "maxMovementPoints": 3.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 14,
+      "agility": 19,
+      "constitution": 18,
+      "strength": 13,
+      "speed": 12,
+      "perception": 12,
+      "stealth": 20,
+      "currentStealthValue": 20,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 38,
+      "speciesType": "Bear",
+      "isFemale": false,
+      "x": 16,
+      "y": 23,
+      "healthPoints": 415,
+      "maxHealth": 415,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 3.0,
+      "maxMovementPoints": 3.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 31,
+      "agility": 13,
+      "constitution": 21,
+      "strength": 26,
+      "speed": 12,
+      "perception": 17,
+      "stealth": 7,
+      "currentStealthValue": 7,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 76,
+      "speciesType": "Iguana",
+      "isFemale": true,
+      "x": 14,
+      "y": 8,
+      "healthPoints": 105,
+      "maxHealth": 105,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 2.0,
+      "maxMovementPoints": 2.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 5,
+      "agility": 18,
+      "constitution": 11,
+      "strength": 4,
+      "speed": 9,
+      "perception": 14,
+      "stealth": 20,
+      "currentStealthValue": 20,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 56,
+      "speciesType": "Fox",
+      "isFemale": false,
+      "x": 6,
+      "y": 11,
+      "healthPoints": 185,
+      "maxHealth": 185,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 4.0,
+      "maxMovementPoints": 4.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 14,
+      "agility": 22,
+      "constitution": 9,
+      "strength": 9,
+      "speed": 16,
+      "perception": 18,
+      "stealth": 19,
+      "currentStealthValue": 19,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 82,
+      "speciesType": "Iguana",
+      "isFemale": false,
+      "x": 18,
+      "y": 17,
+      "healthPoints": 95,
+      "maxHealth": 95,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 2.5,
+      "maxMovementPoints": 2.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 3,
+      "agility": 17,
+      "constitution": 13,
+      "strength": 4,
+      "speed": 11,
+      "perception": 12,
+      "stealth": 22,
+      "currentStealthValue": 22,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 29,
+      "speciesType": "Rabbit",
+      "isFemale": true,
+      "x": 9,
+      "y": 7,
+      "healthPoints": 115,
+      "maxHealth": 115,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 4.0,
+      "maxMovementPoints": 4.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 6,
+      "agility": 16,
+      "constitution": 11,
+      "strength": 3,
+      "speed": 16,
+      "perception": 19,
+      "stealth": 14,
+      "currentStealthValue": 14,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 34,
+      "speciesType": "Rabbit",
+      "isFemale": true,
+      "x": 13,
+      "y": 3,
+      "healthPoints": 85,
+      "maxHealth": 85,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 6.0,
+      "maxMovementPoints": 6.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 4,
+      "agility": 19,
+      "constitution": 9,
+      "strength": 2,
+      "speed": 24,
+      "perception": 16,
+      "stealth": 16,
+      "currentStealthValue": 16,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 26,
+      "speciesType": "Rabbit",
+      "isFemale": true,
+      "x": 9,
+      "y": 7,
+      "healthPoints": 85,
+      "maxHealth": 85,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 5.5,
+      "maxMovementPoints": 5.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 3,
+      "agility": 15,
+      "constitution": 11,
+      "strength": 4,
+      "speed": 22,
+      "perception": 17,
+      "stealth": 14,
+      "currentStealthValue": 14,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 51,
+      "speciesType": "Deer",
+      "isFemale": true,
+      "x": 13,
+      "y": 2,
+      "healthPoints": 250,
+      "maxHealth": 250,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 5.0,
+      "maxMovementPoints": 5.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 17,
+      "agility": 16,
+      "constitution": 16,
+      "strength": 10,
+      "speed": 20,
+      "perception": 18,
+      "stealth": 19,
+      "currentStealthValue": 19,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 9,
+      "speciesType": "Wolf",
+      "isFemale": true,
+      "x": 14,
+      "y": 22,
+      "healthPoints": 270,
+      "maxHealth": 270,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 3.0,
+      "maxMovementPoints": 3.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 19,
+      "agility": 17,
+      "constitution": 16,
+      "strength": 21,
+      "speed": 12,
+      "perception": 17,
+      "stealth": 14,
+      "currentStealthValue": 14,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 79,
+      "speciesType": "Iguana",
+      "isFemale": true,
+      "x": 14,
+      "y": 8,
+      "healthPoints": 85,
+      "maxHealth": 85,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 1.0,
+      "maxMovementPoints": 1.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 3,
+      "agility": 13,
+      "constitution": 11,
+      "strength": 6,
+      "speed": 5,
+      "perception": 15,
+      "stealth": 22,
+      "currentStealthValue": 22,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 71,
+      "speciesType": "Iguana",
+      "isFemale": false,
+      "x": 3,
+      "y": 20,
+      "healthPoints": 85,
+      "maxHealth": 85,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 1.0,
+      "maxMovementPoints": 1.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 4,
+      "agility": 15,
+      "constitution": 9,
+      "strength": 4,
+      "speed": 5,
+      "perception": 12,
+      "stealth": 18,
+      "currentStealthValue": 18,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 31,
+      "speciesType": "Rabbit",
+      "isFemale": false,
+      "x": 13,
+      "y": 3,
+      "healthPoints": 90,
+      "maxHealth": 90,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 5.0,
+      "maxMovementPoints": 5.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 5,
+      "agility": 23,
+      "constitution": 8,
+      "strength": 3,
+      "speed": 21,
+      "perception": 11,
+      "stealth": 20,
+      "currentStealthValue": 20,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 52,
+      "speciesType": "Fox",
+      "isFemale": false,
+      "x": 20,
+      "y": 0,
+      "healthPoints": 135,
+      "maxHealth": 135,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 5.5,
+      "maxMovementPoints": 5.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 8,
+      "agility": 14,
+      "constitution": 11,
+      "strength": 13,
+      "speed": 22,
+      "perception": 16,
+      "stealth": 13,
+      "currentStealthValue": 13,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 80,
+      "speciesType": "Iguana",
+      "isFemale": true,
+      "x": 14,
+      "y": 8,
+      "healthPoints": 115,
+      "maxHealth": 115,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 2.5,
+      "maxMovementPoints": 2.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 4,
+      "agility": 13,
+      "constitution": 15,
+      "strength": 5,
+      "speed": 11,
+      "perception": 20,
+      "stealth": 14,
+      "currentStealthValue": 14,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 39,
+      "speciesType": "Tiger",
+      "isFemale": false,
+      "x": 21,
+      "y": 21,
+      "healthPoints": 450,
+      "maxHealth": 450,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 5.0,
+      "maxMovementPoints": 5.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 35,
+      "agility": 20,
+      "constitution": 20,
+      "strength": 23,
+      "speed": 21,
+      "perception": 13,
+      "stealth": 15,
+      "currentStealthValue": 15,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 15,
+      "speciesType": "Rabbit",
+      "isFemale": true,
+      "x": 17,
+      "y": 8,
+      "healthPoints": 105,
+      "maxHealth": 105,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 3.5,
+      "maxMovementPoints": 3.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 6,
+      "agility": 18,
+      "constitution": 9,
+      "strength": 3,
+      "speed": 14,
+      "perception": 15,
+      "stealth": 22,
+      "currentStealthValue": 22,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 32,
+      "speciesType": "Rabbit",
+      "isFemale": false,
+      "x": 13,
+      "y": 3,
+      "healthPoints": 100,
+      "maxHealth": 100,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 4.0,
+      "maxMovementPoints": 4.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 4,
+      "agility": 24,
+      "constitution": 12,
+      "strength": 4,
+      "speed": 17,
+      "perception": 17,
+      "stealth": 20,
+      "currentStealthValue": 20,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 64,
+      "speciesType": "Iguana",
+      "isFemale": true,
+      "x": 7,
+      "y": 5,
+      "healthPoints": 115,
+      "maxHealth": 115,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 3.0,
+      "maxMovementPoints": 3.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 4,
+      "agility": 10,
+      "constitution": 15,
+      "strength": 6,
+      "speed": 12,
+      "perception": 13,
+      "stealth": 16,
+      "currentStealthValue": 16,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 83,
+      "speciesType": "Iguana",
+      "isFemale": false,
+      "x": 18,
+      "y": 17,
+      "healthPoints": 80,
+      "maxHealth": 80,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 2.0,
+      "maxMovementPoints": 2.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 2,
+      "agility": 13,
+      "constitution": 12,
+      "strength": 4,
+      "speed": 9,
+      "perception": 14,
+      "stealth": 22,
+      "currentStealthValue": 22,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 11,
+      "speciesType": "Rabbit",
+      "isFemale": false,
+      "x": 14,
+      "y": 11,
+      "healthPoints": 100,
+      "maxHealth": 100,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 3.5,
+      "maxMovementPoints": 3.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 4,
+      "agility": 21,
+      "constitution": 12,
+      "strength": 3,
+      "speed": 15,
+      "perception": 12,
+      "stealth": 14,
+      "currentStealthValue": 14,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 12,
+      "speciesType": "Rabbit",
+      "isFemale": false,
+      "x": 14,
+      "y": 11,
+      "healthPoints": 115,
+      "maxHealth": 115,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 5.0,
+      "maxMovementPoints": 5.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 6,
+      "agility": 15,
+      "constitution": 11,
+      "strength": 4,
+      "speed": 20,
+      "perception": 16,
+      "stealth": 16,
+      "currentStealthValue": 16,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 74,
+      "speciesType": "Iguana",
+      "isFemale": true,
+      "x": 3,
+      "y": 20,
+      "healthPoints": 80,
+      "maxHealth": 80,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 1.0,
+      "maxMovementPoints": 1.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 4,
+      "agility": 13,
+      "constitution": 8,
+      "strength": 5,
+      "speed": 5,
+      "perception": 16,
+      "stealth": 16,
+      "currentStealthValue": 16,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 62,
+      "speciesType": "Iguana",
+      "isFemale": true,
+      "x": 7,
+      "y": 5,
+      "healthPoints": 105,
+      "maxHealth": 105,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 2.5,
+      "maxMovementPoints": 2.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 5,
+      "agility": 12,
+      "constitution": 11,
+      "strength": 6,
+      "speed": 11,
+      "perception": 15,
+      "stealth": 15,
+      "currentStealthValue": 15,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 37,
+      "speciesType": "Bear",
+      "isFemale": false,
+      "x": 14,
+      "y": 24,
+      "healthPoints": 480,
+      "maxHealth": 480,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 2.5,
+      "maxMovementPoints": 2.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 36,
+      "agility": 11,
+      "constitution": 24,
+      "strength": 21,
+      "speed": 11,
+      "perception": 16,
+      "stealth": 8,
+      "currentStealthValue": 8,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 85,
+      "speciesType": "Iguana",
+      "isFemale": false,
+      "x": 18,
+      "y": 17,
+      "healthPoints": 105,
+      "maxHealth": 105,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 1.5,
+      "maxMovementPoints": 1.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 4,
+      "agility": 10,
+      "constitution": 13,
+      "strength": 4,
+      "speed": 7,
+      "perception": 17,
+      "stealth": 19,
+      "currentStealthValue": 19,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 81,
+      "speciesType": "Iguana",
+      "isFemale": true,
+      "x": 18,
+      "y": 17,
+      "healthPoints": 75,
+      "maxHealth": 75,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 2.5,
+      "maxMovementPoints": 2.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 2,
+      "agility": 16,
+      "constitution": 11,
+      "strength": 6,
+      "speed": 10,
+      "perception": 16,
+      "stealth": 22,
+      "currentStealthValue": 22,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 50,
+      "speciesType": "Deer",
+      "isFemale": false,
+      "x": 13,
+      "y": 2,
+      "healthPoints": 210,
+      "maxHealth": 210,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 3.0,
+      "maxMovementPoints": 3.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 14,
+      "agility": 19,
+      "constitution": 14,
+      "strength": 9,
+      "speed": 13,
+      "perception": 18,
+      "stealth": 16,
+      "currentStealthValue": 16,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 27,
+      "speciesType": "Rabbit",
+      "isFemale": false,
+      "x": 9,
+      "y": 7,
+      "healthPoints": 90,
+      "maxHealth": 90,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 4.0,
+      "maxMovementPoints": 4.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 4,
+      "agility": 19,
+      "constitution": 10,
+      "strength": 5,
+      "speed": 16,
+      "perception": 18,
+      "stealth": 19,
+      "currentStealthValue": 19,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 18,
+      "speciesType": "Rabbit",
+      "isFemale": true,
+      "x": 17,
+      "y": 8,
+      "healthPoints": 70,
+      "maxHealth": 70,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 4.5,
+      "maxMovementPoints": 4.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 3,
+      "agility": 15,
+      "constitution": 8,
+      "strength": 4,
+      "speed": 18,
+      "perception": 18,
+      "stealth": 14,
+      "currentStealthValue": 14,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 69,
+      "speciesType": "Iguana",
+      "isFemale": true,
+      "x": 9,
+      "y": 5,
+      "healthPoints": 80,
+      "maxHealth": 80,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 2.0,
+      "maxMovementPoints": 2.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 4,
+      "agility": 10,
+      "constitution": 8,
+      "strength": 3,
+      "speed": 9,
+      "perception": 19,
+      "stealth": 15,
+      "currentStealthValue": 15,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 8,
+      "speciesType": "Wolf",
+      "isFemale": false,
+      "x": 14,
+      "y": 22,
+      "healthPoints": 295,
+      "maxHealth": 295,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 4.5,
+      "maxMovementPoints": 4.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 21,
+      "agility": 20,
+      "constitution": 17,
+      "strength": 18,
+      "speed": 19,
+      "perception": 20,
+      "stealth": 13,
+      "currentStealthValue": 13,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 35,
+      "speciesType": "Bear",
+      "isFemale": true,
+      "x": 12,
+      "y": 24,
+      "healthPoints": 385,
+      "maxHealth": 385,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 3.0,
+      "maxMovementPoints": 3.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 26,
+      "agility": 13,
+      "constitution": 25,
+      "strength": 18,
+      "speed": 12,
+      "perception": 17,
+      "stealth": 6,
+      "currentStealthValue": 6,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 23,
+      "speciesType": "Rabbit",
+      "isFemale": true,
+      "x": 4,
+      "y": 7,
+      "healthPoints": 110,
+      "maxHealth": 110,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 5.0,
+      "maxMovementPoints": 5.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 5,
+      "agility": 23,
+      "constitution": 12,
+      "strength": 4,
+      "speed": 21,
+      "perception": 17,
+      "stealth": 20,
+      "currentStealthValue": 20,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 40,
+      "speciesType": "Tiger",
+      "isFemale": false,
+      "x": 10,
+      "y": 6,
+      "healthPoints": 320,
+      "maxHealth": 320,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 3.0,
+      "maxMovementPoints": 3.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 25,
+      "agility": 21,
+      "constitution": 14,
+      "strength": 24,
+      "speed": 13,
+      "perception": 17,
+      "stealth": 16,
+      "currentStealthValue": 16,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 61,
+      "speciesType": "Iguana",
+      "isFemale": true,
+      "x": 7,
+      "y": 5,
+      "healthPoints": 115,
+      "maxHealth": 115,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 1.0,
+      "maxMovementPoints": 1.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 4,
+      "agility": 10,
+      "constitution": 15,
+      "strength": 3,
+      "speed": 5,
+      "perception": 17,
+      "stealth": 20,
+      "currentStealthValue": 20,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 44,
+      "speciesType": "Deer",
+      "isFemale": true,
+      "x": 7,
+      "y": 14,
+      "healthPoints": 205,
+      "maxHealth": 205,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 3.5,
+      "maxMovementPoints": 3.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 13,
+      "agility": 17,
+      "constitution": 15,
+      "strength": 15,
+      "speed": 14,
+      "perception": 12,
+      "stealth": 12,
+      "currentStealthValue": 12,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 43,
+      "speciesType": "Deer",
+      "isFemale": false,
+      "x": 7,
+      "y": 14,
+      "healthPoints": 215,
+      "maxHealth": 215,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 3.0,
+      "maxMovementPoints": 3.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 13,
+      "agility": 19,
+      "constitution": 17,
+      "strength": 8,
+      "speed": 12,
+      "perception": 18,
+      "stealth": 17,
+      "currentStealthValue": 17,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 78,
+      "speciesType": "Iguana",
+      "isFemale": false,
+      "x": 14,
+      "y": 8,
+      "healthPoints": 110,
+      "maxHealth": 110,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 1.0,
+      "maxMovementPoints": 1.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 5,
+      "agility": 17,
+      "constitution": 12,
+      "strength": 3,
+      "speed": 5,
+      "perception": 16,
+      "stealth": 17,
+      "currentStealthValue": 17,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 19,
+      "speciesType": "Rabbit",
+      "isFemale": true,
+      "x": 17,
+      "y": 8,
+      "healthPoints": 105,
+      "maxHealth": 105,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 4.5,
+      "maxMovementPoints": 4.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 6,
+      "agility": 23,
+      "constitution": 9,
+      "strength": 3,
+      "speed": 18,
+      "perception": 12,
+      "stealth": 20,
+      "currentStealthValue": 20,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 49,
+      "speciesType": "Deer",
+      "isFemale": false,
+      "x": 13,
+      "y": 2,
+      "healthPoints": 230,
+      "maxHealth": 230,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 5.5,
+      "maxMovementPoints": 5.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 14,
+      "agility": 15,
+      "constitution": 18,
+      "strength": 13,
+      "speed": 22,
+      "perception": 21,
+      "stealth": 19,
+      "currentStealthValue": 19,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 60,
+      "speciesType": "Fox",
+      "isFemale": true,
+      "x": 21,
+      "y": 15,
+      "healthPoints": 120,
+      "maxHealth": 120,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 3.5,
+      "maxMovementPoints": 3.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 8,
+      "agility": 17,
+      "constitution": 8,
+      "strength": 9,
+      "speed": 15,
+      "perception": 15,
+      "stealth": 22,
+      "currentStealthValue": 22,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 77,
+      "speciesType": "Iguana",
+      "isFemale": true,
+      "x": 14,
+      "y": 8,
+      "healthPoints": 125,
+      "maxHealth": 125,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 2.0,
+      "maxMovementPoints": 2.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 5,
+      "agility": 18,
+      "constitution": 15,
+      "strength": 2,
+      "speed": 8,
+      "perception": 18,
+      "stealth": 15,
+      "currentStealthValue": 15,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 30,
+      "speciesType": "Rabbit",
+      "isFemale": false,
+      "x": 13,
+      "y": 3,
+      "healthPoints": 80,
+      "maxHealth": 80,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 3.5,
+      "maxMovementPoints": 3.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 3,
+      "agility": 16,
+      "constitution": 10,
+      "strength": 2,
+      "speed": 15,
+      "perception": 14,
+      "stealth": 14,
+      "currentStealthValue": 14,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 21,
+      "speciesType": "Rabbit",
+      "isFemale": true,
+      "x": 4,
+      "y": 7,
+      "healthPoints": 75,
+      "maxHealth": 75,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 4.5,
+      "maxMovementPoints": 4.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 3,
+      "agility": 21,
+      "constitution": 9,
+      "strength": 4,
+      "speed": 18,
+      "perception": 13,
+      "stealth": 23,
+      "currentStealthValue": 23,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 70,
+      "speciesType": "Iguana",
+      "isFemale": false,
+      "x": 9,
+      "y": 5,
+      "healthPoints": 105,
+      "maxHealth": 105,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 1.5,
+      "maxMovementPoints": 1.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 3,
+      "agility": 15,
+      "constitution": 15,
+      "strength": 4,
+      "speed": 6,
+      "perception": 16,
+      "stealth": 16,
+      "currentStealthValue": 16,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 20,
+      "speciesType": "Rabbit",
+      "isFemale": true,
+      "x": 4,
+      "y": 7,
+      "healthPoints": 75,
+      "maxHealth": 75,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 3.5,
+      "maxMovementPoints": 3.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 4,
+      "agility": 19,
+      "constitution": 7,
+      "strength": 5,
+      "speed": 15,
+      "perception": 12,
+      "stealth": 16,
+      "currentStealthValue": 16,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 7,
+      "speciesType": "Wolf",
+      "isFemale": false,
+      "x": 14,
+      "y": 22,
+      "healthPoints": 300,
+      "maxHealth": 300,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 4.5,
+      "maxMovementPoints": 4.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 23,
+      "agility": 14,
+      "constitution": 14,
+      "strength": 12,
+      "speed": 18,
+      "perception": 19,
+      "stealth": 9,
+      "currentStealthValue": 9,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 25,
+      "speciesType": "Rabbit",
+      "isFemale": false,
+      "x": 9,
+      "y": 7,
+      "healthPoints": 65,
+      "maxHealth": 65,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 4.0,
+      "maxMovementPoints": 4.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 3,
+      "agility": 19,
+      "constitution": 7,
+      "strength": 2,
+      "speed": 17,
+      "perception": 20,
+      "stealth": 15,
+      "currentStealthValue": 15,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 41,
+      "speciesType": "Tiger",
+      "isFemale": true,
+      "x": 8,
+      "y": 15,
+      "healthPoints": 310,
+      "maxHealth": 310,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 4.5,
+      "maxMovementPoints": 4.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 24,
+      "agility": 23,
+      "constitution": 14,
+      "strength": 22,
+      "speed": 19,
+      "perception": 21,
+      "stealth": 16,
+      "currentStealthValue": 16,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 45,
+      "speciesType": "Deer",
+      "isFemale": false,
+      "x": 7,
+      "y": 14,
+      "healthPoints": 240,
+      "maxHealth": 240,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 5.0,
+      "maxMovementPoints": 5.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 16,
+      "agility": 17,
+      "constitution": 16,
+      "strength": 15,
+      "speed": 20,
+      "perception": 14,
+      "stealth": 10,
+      "currentStealthValue": 10,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 22,
+      "speciesType": "Rabbit",
+      "isFemale": true,
+      "x": 4,
+      "y": 7,
+      "healthPoints": 110,
+      "maxHealth": 110,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 4.0,
+      "maxMovementPoints": 4.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 5,
+      "agility": 20,
+      "constitution": 12,
+      "strength": 3,
+      "speed": 16,
+      "perception": 17,
+      "stealth": 17,
+      "currentStealthValue": 17,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 36,
+      "speciesType": "Bear",
+      "isFemale": false,
+      "x": 1,
+      "y": 9,
+      "healthPoints": 525,
+      "maxHealth": 525,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 2.5,
+      "maxMovementPoints": 2.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 40,
+      "agility": 9,
+      "constitution": 25,
+      "strength": 19,
+      "speed": 10,
+      "perception": 16,
+      "stealth": 5,
+      "currentStealthValue": 5,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 10,
+      "speciesType": "Rabbit",
+      "isFemale": true,
+      "x": 14,
+      "y": 11,
+      "healthPoints": 100,
+      "maxHealth": 100,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 5.5,
+      "maxMovementPoints": 5.5,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 4,
+      "agility": 15,
+      "constitution": 12,
+      "strength": 3,
+      "speed": 22,
+      "perception": 17,
+      "stealth": 23,
+      "currentStealthValue": 23,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 59,
+      "speciesType": "Fox",
+      "isFemale": false,
+      "x": 21,
+      "y": 15,
+      "healthPoints": 140,
+      "maxHealth": 140,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 3.0,
+      "maxMovementPoints": 3.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 9,
+      "agility": 19,
+      "constitution": 10,
+      "strength": 10,
+      "speed": 12,
+      "perception": 14,
+      "stealth": 21,
+      "currentStealthValue": 21,
+      "physicalResistance": 1.0,
+      "group": []
+    },
+    {
+      "id": 53,
+      "speciesType": "Fox",
+      "isFemale": true,
+      "x": 20,
+      "y": 0,
+      "healthPoints": 175,
+      "maxHealth": 175,
+      "healthStatus": "HEALTHY",
+      "isDead": false,
+      "actionPoints": 4,
+      "currentMovementPoints": 3.0,
+      "maxMovementPoints": 3.0,
+      "currentBattleAction": "N/A",
+      "currentAction": "N/A",
+      "conditions": [],
+      "battleConditions": [],
+      "hasEatenThisTick": false,
+      "deepRestPoints": 0,
+      "size": 13,
+      "agility": 20,
+      "constitution": 9,
+      "strength": 12,
+      "speed": 13,
+      "perception": 14,
+      "stealth": 14,
+      "currentStealthValue": 14,
+      "physicalResistance": 1.0,
+      "group": []
+    }
+  ],
+  "currentBattle": {
+    "isActive": true,
+    "battleMapWidth": 8,
+    "battleMapHeight": 8,
+    "battleMapGrid": [
+      {
+        "x": 0,
+        "y": 0,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 0,
+        "y": 6,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 0,
+        "y": 7,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 1,
+        "y": 6,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 1,
+        "y": 7,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 2,
+        "y": 6,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 2,
+        "y": 7,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 3,
+        "y": 6,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 3,
+        "y": 7,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 4,
+        "y": 6,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 4,
+        "y": 7,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 5,
+        "y": 6,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 5,
+        "y": 7,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 6,
+        "y": 1,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 6,
+        "y": 2,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 6,
+        "y": 3,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 6,
+        "y": 4,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 6,
+        "y": 5,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 6,
+        "y": 6,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 6,
+        "y": 7,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 7,
+        "y": 0,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 7,
+        "y": 1,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 7,
+        "y": 2,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 7,
+        "y": 3,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 7,
+        "y": 4,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 7,
+        "y": 5,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 7,
+        "y": 6,
+        "terrainType": "HILL"
+      },
+      {
+        "x": 7,
+        "y": 7,
+        "terrainType": "HILL"
+      }
+    ],
+    "combatants": [
+      {
+        "id": 5,
+        "speciesType": "Wolf",
+        "isFemale": true,
+        "x": 5,
+        "y": 4,
+        "healthPoints": 285,
+        "maxHealth": 285,
+        "healthStatus": "HEALTHY",
+        "isDead": false,
+        "actionPoints": 4,
+        "currentMovementPoints": 3.0,
+        "maxMovementPoints": 3.0,
+        "currentBattleAction": "PENDING",
+        "currentAction": "PENDING",
+        "conditions": [],
+        "battleConditions": [],
+        "hasEatenThisTick": false,
+        "deepRestPoints": 0,
+        "size": 19,
+        "agility": 17,
+        "constitution": 19,
+        "strength": 16,
+        "speed": 12,
+        "perception": 15,
+        "stealth": 13,
+        "currentStealthValue": 13,
+        "physicalResistance": 1.0,
+        "group": []
+      },
+      {
+        "id": 4,
+        "speciesType": "Wolf",
+        "isFemale": true,
+        "x": 7,
+        "y": 4,
+        "healthPoints": 260,
+        "maxHealth": 260,
+        "healthStatus": "HEALTHY",
+        "isDead": false,
+        "actionPoints": 3,
+        "currentMovementPoints": 2.5,
+        "maxMovementPoints": 2.5,
+        "currentBattleAction": "PENDING",
+        "currentAction": "PENDING",
+        "conditions": [],
+        "battleConditions": [],
+        "hasEatenThisTick": false,
+        "deepRestPoints": 0,
+        "size": 15,
+        "agility": 11,
+        "constitution": 22,
+        "strength": 20,
+        "speed": 10,
+        "perception": 20,
+        "stealth": 10,
+        "currentStealthValue": 10,
+        "physicalResistance": 1.0,
+        "group": []
+      },
+      {
+        "id": 6,
+        "speciesType": "Wolf",
+        "isFemale": false,
+        "x": 3,
+        "y": 6,
+        "healthPoints": 295,
+        "maxHealth": 295,
+        "healthStatus": "HEALTHY",
+        "isDead": false,
+        "actionPoints": 4,
+        "currentMovementPoints": 4.0,
+        "maxMovementPoints": 4.0,
+        "currentBattleAction": "PENDING",
+        "currentAction": "PENDING",
+        "conditions": [],
+        "battleConditions": [],
+        "hasEatenThisTick": false,
+        "deepRestPoints": 0,
+        "size": 23,
+        "agility": 16,
+        "constitution": 13,
+        "strength": 12,
+        "speed": 17,
+        "perception": 15,
+        "stealth": 15,
+        "currentStealthValue": 15,
+        "physicalResistance": 1.0,
+        "group": []
+      }
+    ],
+    "currentActorId": 0,
+    "recentBattleEvents": [],
+    "battleOriginCoordinates": "[4,6]"
+  }
+}
